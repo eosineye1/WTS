@@ -1,10 +1,7 @@
 FROM python:3.7
 EXPOSE 8501
 RUN pip3 install streamlit
-RUN pip3 install pandas
-RUN pip3 install numpy
 RUN pip3 install nltk
-RUN pip3 install re
-RUN pip3 install networkx
+RUN python3 -m nltk.downloader punkt
 COPY . .
-CMD streamlit run main.py
+CMD streamlit run app.py
