@@ -1,0 +1,22 @@
+openapi: 3.0.0
+info:
+  title: WTS
+  version: 1.1.0
+  contact:
+    name: Eniola Osineye
+  description: |
+    The goal of WTS is to be a model that produces a compact and coherent summary while preserving key information content and overall meaning.
+    ---
+          How to use on local host:
+     1. Install Python from [Python Official Page](https://www.python.org/).
+      2. Open Terminal
+      3. Go to your file project
+      4. Run in terminal: ```pip install streamlit``` 
+      5. Run in terminal: ```pip3 install streamlit```
+      6. Run in terminal: ```pip3 install nltk```
+      7. Run in terminal: ```python3 -m nltk.downloader punkt```
+      8. Run in terminal: ```streamlit run app.py```
+      9. Navigate to [localhost:8501](http://localhost:8501/)
+    ---
+servers:
+  - url: https://main-wts-eosineye1.endpoint.ainize.ai/
