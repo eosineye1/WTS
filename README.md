@@ -7,16 +7,19 @@ Github: [WTS](https://github.com/eosineye1/WTS)
 Model: [Weighted Text Summarizr](https://ainize.ai/eosineye1/WTS?branch=main)
 
 ## Aim
-The aim of SAM is to help in small business decisions by utilizing data to drive those decisions.
-The goal of WTS 
 
+The goal of WTS is to be a model that produces a compact and coherent summary while preserving key information content and overall meaning.
 
 ## Problem
-Over my years as a data analytics minor, I realised that to analyze data, one must have a basic knowledge of data analytics tools such as excel and/or python/R. However, most business manager may not have the knowledge needed to operate these tools effectively and may require a data analyst. However, some business decisions are minor/small and do not utiize the full capacity of the data analyst. That's where SAM comes in.
+
+Having to read a large body of text to get a conscise and conherent summary.
 
 ## Solution
 
-SAM aims to allow managers to quickly generate visual represntaion and information from data which can be used to drive business decisions. Moreover, SAM is fast, efficent, and user-friendly, which gives everyone the ability to be a data analyst in seconds.
+Asummarization model that take a large body of text and creates a summary.
+
+Two different approaches are used for Text Summarization - extractive Summarization and abstractive Summarization. WTS utilizes extractive summarization. In extractive summarization, we are identifying important phrases or sentences from the original text and extract only these phrases from the text. These extracted sentences would be the summary.
+
 
 ## Terminal Commands
 
@@ -46,6 +49,7 @@ WTS
 ├── app.py
 ├── logo.png
 ├── msft.txt
+├── Swagger.yaml
 └── README.md
 ```
 
