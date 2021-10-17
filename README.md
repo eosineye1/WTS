@@ -29,7 +29,7 @@ Two different approaches are used for Text Summarization - extractive Summarizat
 4. Run in terminal: ```pip install streamlit``` 
 5. Run in terminal: ```pip3 install streamlit```
 6. Run in terminal: ```pip3 install nltk```
-7. Run in terminal: ```python3 -m nltk.downloader punkt``
+7. Run in terminal: ```python3 -m nltk.downloader punkt```
 8. Run in terminal: ```streamlit run app.py```
 9. Navigate to [localhost:8501](http://localhost:8501/)
 
